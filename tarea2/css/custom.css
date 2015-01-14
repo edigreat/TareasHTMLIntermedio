@@ -1,0 +1,86 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+*{
+  /*tamanio de la pagina sea relacionado a los
+  contenedores*/
+  box-sizing:border-box;
+}
+
+body{
+	font-family: 'Lato',sans-serif;
+}
+
+.nav{
+	background: #fff;
+}
+.encabezado {
+	padding: 12px 10px ;
+	background: #70B9B0;
+	color: #fdfdfd;
+}
+
+
+h2.slogan {
+	color: #fff;
+	font-size: 48px;
+	font-weight: 900;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+	color:#222;
+	text-shadow:0 1px 1px rgba(0,0,0,0.8) ;
+  /*prefijos para los navegadores*/
+  /*opera*/
+  -o-text-shadow:0 1px 1px rgba(0,0,0,0.8) ;
+  /*webkit*/
+  -webkit-text-shadow:0 1px 1px rgba(0,0,0,0.8) ;
+  /*moz*/
+  -moz-text-shadow:0 1px 1px rgba(0,0,0,0.8) ;
+  /*IE*/
+  -ms-text-shadow:0 1px 1px rgba(0,0,0,0.8) ;
+}
+
+.txt-bold { font-weight: 700; }
+
+.seccion2 h4{
+	color: #fff;
+}
+.seccion2 {
+	 background: linear-gradient(#69b4eb,transparent 90%),
+              linear-gradient(to top,#fff,transparent),
+              #69b4eb url('../img/landscape.jpg');
+	background-size: cover;
+	padding: 60px 60px;
+	color: #fff;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.section2 {
+	margin:0;
+	padding: 80px 0 60px 0;
+}
+
+.seccion3{
+		padding: 80px 0 60px 0;
+
+
+}
+
+/**Footer**/
+.footer{
+	padding:3em 3em;
+	background:#4D4D4D;
+}
+.footer p{
+	color:#5BBD50;
+	font-size:16px;
+	font-weight:500;
+}
+.footer a{
+	color:#FFF;
+}
+.footer a:hover{
+	color:#5BBD50;
+}
