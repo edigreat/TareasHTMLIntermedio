@@ -1,0 +1,192 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+   height: 100%;
+   font-family: 'Lato',verdana,arial,sans-serif;
+   color:#555555;
+}
+
+.nav {
+   font-family:Arial,sans-serif;
+   font-size:13px;
+}
+
+a {
+  color:#222222;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+hr {
+  border-color:#dedede;
+}
+
+.row {
+   height: 100%;
+   margin-left:0;
+   margin-right:0;
+}
+
+
+.column .padding {
+    padding: 10px;
+
+}
+
+.full{
+  padding-top:60px;
+}
+
+
+
+
+
+.header-container{
+  width:100%;
+}
+
+.navbar-blue {
+    border-width:0;
+    background-color:#3B5999;
+    color:#ffffff;
+    font-family:arial,sans-serif;
+    top:0;
+    position:fixed;
+    width:680px;
+}
+.panel-body{
+  text-align: center;
+  background: linear-gradient(to bottom,#3B5999, transparent 20%),
+              linear-gradient(to top, #fff, transparent);
+}
+.navbar-blue li > a,.navbar-toggle  {
+   color:#efefef;
+}
+
+
+.navbar-blue li>a:hover, .navbar-blue li>a:focus {
+   background-color:#2A4888;
+   color:#fff;
+}
+
+#main,#navegacion {
+   background-color:#e9eaed;
+   padding-left:0;
+   padding-right:0;
+}
+#main .mapa {
+   margin-top:18px;
+   padding-left: 20%;
+   padding-right: 20%;
+   border: 0px;
+   text-align: center;
+   
+}
+
+
+
+.logo {
+  display:block;
+  padding:3px;
+  background-color:#fff;
+  color:#3B5999;
+  height:28px;
+  width:48px;
+  margin:9px;
+  margin-right:2px;
+  margin-left:15px;
+  font-size:20px;
+  font-weight:700;
+  text-align:center;
+  text-decoration:none;
+  text-shadow: 0 1px 1px rgba(0,0,0, 0.8);
+  border-radius:2px;
+}
+
+#footer {
+  margin-bottom:20px;
+}
+
+
+h1,h2,h3 {
+   font-weight:800;
+}
+
+
+.btn-default {
+    color:#666666;
+    text-shadow:0 0 1px rgba(0,0,0,.3);
+}
+
+
+ 
+video{
+  width:300px;
+}
+
+
+
+.panel-default .panel-heading {
+  background-color:#f9fafb;
+  color:#555555;
+}
+
+.col-sm-9.full {
+    width: 100%;
+}
+
+
+.modal-footer i, .well i {
+    font-size:20px;
+    color:#c0c0c0;
+}
+
+.modal-body {
+  padding:0px;
+}
+
+.modal-body textarea.form-control
+{
+   resize: none;
+   border:0;
+   box-shadow:0 0 0;
+}
+
+small.text-muted {
+  font-family:courier,courier-new,monospace;
+}
+
+/* adjust the contents on smaller devices */
+@media (max-width: 768px) {
+
+  .column .padding {
+    padding: 7px;
+  }
+
+  .full{
+  padding-top:20px;
+  }
+
+
+
+
+}
+
+
+/*
+ * off canvas sidebar
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+ 
+
+  #sidebar, #sidebar a, #sidebar-footer a {
+    padding-left:3px;
+  }
+}
