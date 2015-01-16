@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tarea 3</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/principal.css">
+  </head>
+
+  <body>
+    <section id="header">
+        <div class="menu">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="index.html">Tarea 3</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav pull-right">
+                <li class="active"><a href="#billboard">Index</a></li>
+                    <li><a href="#sonidos">Sonidos</a></li>
+                     <li><a href="#story">Historia</a></li>
+                    <li><a href="#subscription">Contacto</a></li>
+                                  
+                </ul>
+                    </div>
+              </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="billboard" class="bill-board">
+      <div class="container">
+        <div class="row">
+          <div class="main-text">
+             <h1>Vacaciones</h1>
+            <video width="400"  controls 
+            poster="./img/video.jpg">
+            <source src="./video/buho.mp4" type="video/mp4" />
+
+            Tu navegador no soporta HTML5
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="services">
+      <div class="container" id="sonidos" >
+          <div class="row">
+            <h2 class="section-title">Sonidos Graciosos</h2>
+              <div class="col-sm-4 col-md-4">
+                  <article class="text-center ">
+                      <h3>Pajaros</h3>
+                        <audio controls>
+                        <source src="./music/Birds.ogg" type="audio/ogg"/>
+                        </audio>
+
+                  </article>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                  <article class="text-center">
+                      <h3>Dinosaurio</h3>
+                       <audio controls>
+                        <source src="./music/Dinosaur.ogg" type="audio/ogg"/>
+                        </audio>
+                  </article>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                  <article class="text-center">
+                      <i class="fa fa-android"></i>
+                      <h3>Perros </h3>
+                     <audio controls>
+                        <source src="./music/Dogs.ogg" type="audio/ogg"/>
+                        </audio>
+                  </article>
+              </div>
+          </div>
+          <hr>
+      </div>
+  </section>
+  <section id="story" class="story">
+      <div class="container">
+          <div class="row">
+              <div class="header-title text-center">
+                  <h2 class="section-title">Historia</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi aliquam, perspiciatis id blanditiis dolor. Quod sunt magnam dolorum corporis cum nemo. Quibusdam, ratione illum atque unde ut nam perspiciatis optio?
+                  </p>
+                 <div class="main-text">
+            <video width="400"  controls 
+            poster="./img/video.jpg">
+            <source src="./video/game.webm" type="video/webm" />
+
+            Tu navegador no soporta HTML5
+          </video>
+              </div>                
+          </div>
+      </div>
+  </section>
+  <div class="row">
+    <section id="subscription" class="subscription text-center">
+      <div class="container">
+        <div class="sub-title">
+          <h2 class="section-title">Contactame</h2>
+          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, ex. Rem sequi inventore quo omnis asperiores magnam, exercitationem quae, neque, delectus porro cumque repellendus consequatur illum placeat earum repellat expedita!</p>
+        </div>
+        <form class="form-horizontal" >
+          <div class="form-group">
+            <label for="nombre" class="col-sm-2 control-label">Nombre</label>
+            <div class="col-sm-10">
+            <input type="text" nombre="nombre" class="form-control" id="nombre" placeholder="Tu nombre" data-rule="maxlen:4" data-msg="Minimo 4 caracteres" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="correo" class="col-sm-2 control-label" >Correo</label>
+            <div class="col-sm-10">
+            <input type="email" class="form-control" name="correo" id="correo" placeholder="Correo" data-rule="email" data-msg="Por favor, introduce un correo valido" />
+            <div class="validation"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="asunto" class="col-sm-2 control-label">Asunto</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" name="asunto" id="asunto" placeholder="asunto" data-rule="maxlen:4" data-msg="Minimo 6 caracteres" />
+            <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje" class="col-sm-2 control-label">Mensaje</label>
+            <div class="col-sm-10">
+            <textarea class="form-control" name="mensaje" rows="5" data-rule="required" data-msg="Escribenos algo"></textarea>
+            <div class="validation"></div>
+          </div>
+          </div> 
+          <div class=" col-sm-offset-2  col-sm-10">
+          <button type="submit" class="btn btn-success pull-left">Enviar</button>
+        </div>
+          </form> 
+
+
+        </form>
+      </div>
+    </section>
+  </div>
+       
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row wow fadeInDown">
+        <div class="col-sm-6 col-md-3">
+          <div class="footer-widget">
+            <h4 class="widget-title">PROTECO - UNAM</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab odit labore veritatis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
