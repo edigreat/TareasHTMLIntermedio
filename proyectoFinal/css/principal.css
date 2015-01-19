@@ -276,6 +276,10 @@ color: #616161;
     text-align: justify;
 }
 
+.enlacePdf{
+  display: none;
+}
+
 /** Footer **/
 .footer-wrapper ul li img {
   height: 50px;
@@ -309,6 +313,12 @@ width: 50px;
   margin-top:36px;
   letter-spacing:1px
 }
+
+.objeto-pdf{
+    width:800px;
+    height:300px; 
+}
+
 /** Media queries **/
 
 /*Tablets a Escritorio*/
@@ -351,6 +361,12 @@ width: 50px;
   }
    .formaContacto{
     padding: 15px;
+  }
+   .objeto-pdf{
+    display: none;
+  }
+   .enlacePdf{
+  display: inline-block;
   }
 }
 
@@ -407,6 +423,12 @@ width: 50px;
   .formaContacto{
     padding: 15px;
   }
+  .objeto-pdf{
+    display: none;
+  }
+  .enlacePdf{
+  display: inline-block;
+}
 }
 
 
