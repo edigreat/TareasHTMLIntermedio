@@ -315,6 +315,15 @@ width: 50px;
 
 @media only screen and (max-width: 769px){
 
+  .nosotros h1,.galeria-wrapper h1,.historia-wrapper h1,.contacto-wrapper h1 {
+    color: #616161;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  
+}
+
   .lista-navegacion li{
       display: none;
      
@@ -333,6 +342,16 @@ width: 50px;
   .inicio-wrapper  .caption-info p{
     font:600 1.5em Josefin Sans,Arial,Helvetica;
   }
+  .galeria-wrapper img{
+  width:280px;
+  height:280px;
+  opacity: 1;
+ 
+
+  }
+   .formaContacto{
+    padding: 15px;
+  }
 }
 
 /*De telefonos a Tablets*/
@@ -343,10 +362,31 @@ width: 50px;
     font:500 1.2em Josefin Sans,Arial,Helvetica;
 
   }
-  .nosotros-texto h1 {
-    font:normal 2.5em Josefin Sans,Arial,Helvetica;
+ .nosotros h1,.galeria-wrapper h1,.historia-wrapper h1,.contacto-wrapper h1 {
+    color: #616161;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  
+}
 
-  }
+.galeria-wrapper img{
+  width:200px;
+  height:200px;
+  opacity: 1;
+ 
+
+}
+
+.nosotros  p{
+    color: #838181;
+    font-size: 14px;
+    line-height: 28px; 
+    margin-top: 40px;
+    letter-spacing: .5px;
+    text-align: justify;
+}
   .nav-wrapper input,.nav-wrapper span{
     display: none;
   }
@@ -355,9 +395,6 @@ width: 50px;
   text-transform:capitalize;
 }
 
-.nosotros-texto p{
-  font:600 1.2em Josefin Sans,Arial,Helvetica;
-}
   .inicio-wrapper  .caption-info p{
   font:600 1.2em Josefin Sans,Arial,Helvetica;
 }
@@ -365,6 +402,10 @@ width: 50px;
 .lista-navegacion li{
     display: none;
    
+  }
+
+  .formaContacto{
+    padding: 15px;
   }
 }
 
